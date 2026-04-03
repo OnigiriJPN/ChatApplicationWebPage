@@ -11,4 +11,8 @@ else{
   Dld.style.display = "none";
   downloadBtn.disabled = false;
 }
+window.onerror = (Message, Source, Lineno, Colno, Error) => {
+  
 
+  return true;
+};
