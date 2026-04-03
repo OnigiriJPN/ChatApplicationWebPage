@@ -12,7 +12,9 @@ else{
   downloadBtn.disabled = false;
 }
 window.onerror = (Message, Source, Lineno, Colno, Error) => {
-  
+  alert(`エラーが発生しました。
+  理由: {Message}
+  エラー: {Error}`);
 
   return true;
 };
