@@ -2,5 +2,5 @@
 const IsOnline = Navigator.onLine;
 // もしインターネットがオフラインだった時
 if(IsOnline === false){
-  alert("インターネットに接続されていません。ネット回線をご確認ください。")
+  
 }
