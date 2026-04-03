@@ -3,5 +3,6 @@ const IsOnline = Navigator.onLine;
 const Dld = document.getElementById("Dld-Spin");
 // もしインターネットがオフラインだった時
 if(IsOnline === false){
-  Dld.
+  Dld.style.display = "block";
+  
 }
