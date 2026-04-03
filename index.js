@@ -18,3 +18,4 @@ window.onerror = (Message, Source, Lineno, Colno, Error) => {
 
   return true;
 };
+
